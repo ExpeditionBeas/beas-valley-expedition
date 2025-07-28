@@ -1,5 +1,5 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { useLanguage } from "@/hooks/useLanguage";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 const AboutSection = () => {
   const { t } = useLanguage();
